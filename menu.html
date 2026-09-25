@@ -8,7 +8,7 @@
   <body>
     <header>
       <!-- Restaurant Name -->
-      <img src="./assets/images/logo.png" alt="BiteBox Logo" width="100">
+      <img src="./assets/images/logo.png" alt="BiteBox Logo" width="100" />
       <!-- Navbar -->
       <nav>
         <a href="index.html">Home</a>
@@ -21,149 +21,109 @@
       </nav>
     </header>
 
-    <main>
-      <h2>Our Popular Dishes</h2>
-      <img
-        src="./assets/images/pizza1.png"
-        alt="Pizza"
-        width="250px"
-        height="180px"
-      />
-      <h3>Margarita Pizza</h3>
-      <p>Classic Pizza with tomato sauce which is delicious.</p>
-      <img
-        src="./assets/images/burger1.png"
-        alt="Burger"
-        width="250px"
-        height="180px"
-      />
-      <h3>Cheese Burger</h3>
-      <p>Fresh, Delicious and our special dish.</p>
-      <img
-        src="./assets/images/pasta.png"
-        alt="Pasta"
-        width="250px"
-        height="180px"
-      />
-      <h3>Red Sauce Pasta</h3>
-      <p>Delicious pasta with creamy sauce.</p>
-      <img
-        src="./assets/images/sandwich.avif"
-        alt="sandwich"
-        width="250px"
-        height="180px"
-      />
-      <h3>Veg Grilled Sandwich</h3>
-      <p>Fresh, Delicious and our special dish.</p>
-      <img
-        src="./assets/images/french_fries.webp"
-        alt="French Fries"
-        width="250px"
-        height="180px"
-      />
-      <h3>PeriPeri</h3>
-      <p>Crispy fried potato fries.</p>
+    <!-- Hero for Menus -->
+    <section id="menu-hero">
+      <h1>Explore Our Delicious Menu</h1>
+      <p>
+        Discover freshly prepared pizzas, burgers, pasta, biryani, desserts and
+        many more delicious dishes made with premium ingredients.
+      </p>
+    </section>
 
-      <hr>
-      <h2>Restaurant Menus</h2>
+    <section id="categories">
+      <h2>Browse Categories</h2>
+      <div>
+        <article>
+          <img src="./assets/icons/pizza-icon.png" alt="Pizza" width="120" height="120">
+          <h3>Pizza</h3>
+        </article>
+        <article>
+          <img src="./assets/icons/burger-icon.png" alt="Burger" width="120" height="120">
+          <h3>Burger</h3>
+        </article>
+        <article>
+          <img src="./assets/icons/pasta-icon.png" alt="Pasta" width="120" height="120">
+          <h3>Pasta</h3>
+        </article>
+        <article>
+          <img src="./assets/icons/biryani-icon.png" alt="Biryani" width="120" height="120">
+          <h3>Biryani</h3>
+        </article>
+        <article>
+          <img src="./assets/icons/dessert-icon.png" alt="Dessert" width="120" height="120">
+          <h3>Dessert</h3>
+        </article>
+      </div>
+    </section>
 
-      <table border="2" cellpadding="10">
-        <caption>BiteBox Menu</caption>
+    <section id="menu-items">
+      <h2>Our Menus</h2>
+      <div>
+        <article>
+          <img src="./assets/images/pizza1.png" alt="Margherita Pizza" width="220">
+          <h3>Margherita Pizza</h3>
+          <p>⭐⭐⭐⭐⭐<small>(120)</small></p>
+          <p><strong>₹249</strong></p>
+          <button>Add to Cart</button>
+        </article>
+        <article>
+          <img src="./assets/images/burger1.png" alt="Cheese Burger" width="220">
+          <h3>Cheese Burger</h3>
+          <p>⭐⭐⭐⭐⭐<small>(98)</small></p>
+          <p><strong>₹199</strong></p>
+          <button>Add to Cart</button>
+        </article>
+        <article>
+          <img src="./assets/images/pasta.png" alt="Creamy Alfredo Pasta" width="220">
+          <h3>Creamy Alfredo Pasta</h3>
+          <p>⭐⭐⭐⭐⭐<small>(85)</small></p>
+          <p><strong>₹229</strong></p>
+          <button>Add to Cart</button>
+        </article>
+        <article>
+          <img src="./assets/images/biryani.webp" alt="Chicken Biryani" width="220">
+          <h3>Chicken Biryani</h3>
+          <p>⭐⭐⭐⭐⭐<small>(110)</small></p>
+          <p><strong>₹279</strong></p>
+          <button>Add to Cart</button>
+        </article>
+        <article>
+          <img src="./assets/images/chocolate_cake.jpg" alt="Choco Lava Cake" width="220">
+          <h3>Choco Lava Cake</h3>
+          <p>⭐⭐⭐⭐⭐<small>(75)</small></p>
+          <p><strong>₹149</strong></p>
+          <button>Add to Cart</button>
+        </article>
+        <article>
+          <img src="./assets/images/sandwich.avif" alt="Veg Club Sandwich" width="220">
+          <h3>Veg Club Sandwich</h3>
+          <p>⭐⭐⭐⭐⭐<small>(60)</small></p>
+          <p><strong>₹179</strong></p>
+          <button>Add to Cart</button>
+        </article>
+      </div>
+    </section>
 
-        <thead>
-          <tr>
-            <th>Categories</th>
-            <th>Food Item</th>
-            <th>Price</th>
-            <th>Availability</th>
-          </tr>
-        </thead>
-        
-        <tbody align="center">
-          <tr>
-            <td rowspan="3">Pizza</td>
-            <td>Margarita Pizza</td>
-            <td>&#8377 299</td>
-            <td>Available</td>
-          </tr>
-          <tr>
-            <td>Veg Pizza</td>
-            <td>&#8377 129</td>
-            <td>Available</td>
-          </tr>
-          <tr>
-            <td>SweetCorn Pizza</td>
-            <td>&#8377 209</td>
-            <td>Available</td>
-          </tr>
-          <tr>
-            <td>Burger</td>
-            <td>Cheese Burger</td>
-            <td>&#8377 199</td>
-            <td>Available</td>
-          </tr>
-          <tr>
-            <td>Pasta</td>
-            <td>White Sauce Pasta</td>
-            <td>&#8377 249</td>
-            <td>Available</td>
-          </tr>
-          <tr>
-            <td>Sandwich</td>
-            <td>Veg Grilled Sandwich</td>
-            <td>&#8377 179</td>
-            <td>Available</td>
-          </tr>
-          <tr>
-            <td>Dessert</td>
-            <td>Chocolate Brownie</td>
-            <td>&#8377 149</td>
-            <td>Limited</td>
-          </tr>
-          <tr>
-            <td colspan="4">
-              Weekend Offer:
-              Flat 20% OFF on Combo Meals
-            </td>
-          </tr>
-        </tbody>
+    <section id="offer">
+        <div class="offer-content">
+          <h2>Today's Special Offer!</h2>
+          <p>
+            Get <strong>20% OFF</strong> on all orders above
+            <strong>₹499</strong>
+          </p>
+          <p>Use Code: <strong>BITE20</strong></p>
+          <a href="menu.html"> Order Now </a>
+        </div>
+        <div class="offer-image">
+          <img
+            src="./assets/images/pizza-discount.png"
+            alt="Special Offer on Pizza"
+            width="420"
+            height="420"
+          />
+        </div>
+      </section>
 
-      </table>
-
-
-
-
-
-
-
-
-      <h2>Food Categories</h2>
-      <ul>
-        <li>Pizza</li>
-        <li>Burger</li>
-        <li>Pasta</li>
-        <li>Sandwich</li>
-        <li>French Fries</li>
-      </ul>
-
-      <h2>How to place an order?</h2>
-      <ol>
-        <li>Select your favourite food.</li>
-        <li>Add the item to your cart.</li>
-        <li>Confirm your order.</li>
-        <li>Enjoy youe Meal.</li>
-      </ol>
-
-      <h2>Restaurant Information</h2>
-      <p>Delivery Available</p>
-      <p>Open Every Day</p>
-      <p>Fresh Ingredients</p>
-
-      <span>Delivery Available</span>
-      <span>|</span>
-      <span>Open Every Day</span>
-      <span>|</span>
-      <span>Fresh Ingredients</span>
-    </main>
+      
   </body>
 </html>
