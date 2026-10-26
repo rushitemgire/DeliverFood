@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact - BiteBox</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header>
@@ -21,7 +21,12 @@
         <a href="contact.htm">Contact</a>
         |
         <a href="./cart.html">
-          <img src="./assets/icons/cart.png" alt="Cart Icon" width="22" height="22">
+          <img
+            src="./assets/icons/cart.png"
+            alt="Cart Icon"
+            width="22"
+            height="22"
+          />
         </a>
       </nav>
     </header>
@@ -125,7 +130,7 @@
       </div>
     </section>
 
-    <section id="business-hours">
+    <!-- <section id="business-hours">
       <div class="hours-container">
         <article>
           <div>
@@ -168,46 +173,145 @@
           <a href="#">Contact Us</a>
         </article>
       </div>
-    </section>
+    </section> -->
 
-    <section id="contact-form">
-      <div class="section-title">
-        <h4>Send Us a Message</h4>
-        <h2>We'd Love to Hear From You</h2>
-        <p>
-          Fill out the form below, and our team will get back to you as soon as
-          possible.
-        </p>
+    <!--================ Contact Details Section ================-->
+    <section id="contact-details">
+      <!-- Left Column -->
+      <div class="left-column">
+        <!-- Business Hours -->
+        <div class="business-card">
+          <h2>Business Hours</h2>
+          <hr />
+          <div class="business-content">
+            <img src="assets/icons/clock.jpg" alt="Clock" />
+            <table>
+              <tr>
+                <td>Monday – Friday</td>
+                <td>11:00 AM – 11:00 PM</td>
+              </tr>
+
+              <tr>
+                <td>Saturday</td>
+                <td>10:00 AM – 12:00 AM</td>
+              </tr>
+
+              <tr>
+                <td>Sunday</td>
+                <td>10:00 AM – 10:00 PM</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+
+        <!-- Event Card -->
+        <div class="event-card">
+          <img src="assets/icons/calendor.png" alt="Calendar" />
+          <div>
+            <h3>Planning a special event?</h3>
+            <p>
+              We also offer catering services for parties, events and corporate
+              meetings.
+            </p>
+            <a href="#">Contact Us</a>
+          </div>
+        </div>
       </div>
-      <form action="#">
-        <label for="name">Full Name</label>
-        <input type="text" id="name" placeholder="Enter full name"><br><br>
 
-        <label for="email">Email Address</label>
-        <input type="email" id="email" placeholder="Enter email address"><br><br>
+      <!-- Right Column -->
+      <div class="right-column">
+        <h2>Send Us a Message</h2>
+        <hr />
+        <form>
+          <div class="form-row">
+            <input type="text" placeholder="Your Name" />
+            <input type="email" placeholder="Your Email" />
+          </div>
 
-        <label for="phone">Phone Number</label>
-        <input type="tel" id="phone" placeholder="Enter phone number"><br><br>
-
-        <label for="subject">Subject</label>
-        <input type="text" id="subject" placeholder="Enter your subject"><br><br>
-
-        <label for="message">Message</label>
-        <textarea id="message" rows="6" placeholder="Enter your message here"></textarea><br><br>
-
-        <input type="submit" value="Send Message">
-      </form>
+          <div class="form-row">
+            <input type="tel" placeholder="Phone Number" />
+            <input type="text" placeholder="Subject" />
+          </div>
+          <textarea placeholder="Your Message"></textarea>
+          <button>Send Message ✈</button>
+        </form>
+      </div>
     </section>
 
     <section id="google-map">
       <div class="section-title">
         <h4>Find Us</h4>
         <h2>Visit Our Restaurant</h2>
-        <p> Locate BiteBox on Google Maps and visit us for a delightful 
-            dining experience.
+        <p>
+          Locate BiteBox on Google Maps and visit us for a delightful dining
+          experience.
         </p>
       </div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313.4132815610465!2d73.8554429246594!3d18.448046436304285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eadb43d1c35f%3A0x1a5cf2ef5a8d0deb!2sKatraj%20Chowk%2C%20Santosh%20Nagar%2C%20Pune%2C%20Maharashtra%20411046!5e1!3m2!1sen!2sin!4v1790607041344!5m2!1sen!2sin" width="100%" height="450" style="border:2;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313.4132815610465!2d73.8554429246594!3d18.448046436304285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eadb43d1c35f%3A0x1a5cf2ef5a8d0deb!2sKatraj%20Chowk%2C%20Santosh%20Nagar%2C%20Pune%2C%20Maharashtra%20411046!5e1!3m2!1sen!2sin!4v1790607041344!5m2!1sen!2sin"
+        style="border: 2"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="strict-origin-when-cross-origin"
+      ></iframe>
     </section>
+
+
+    <footer>
+      <div class="footer-container">
+      <!-- Footer Logo Section -->
+      <section>
+        <img src="./assets/images/logo.png" alt="BiteBox Logo" width="100">
+        <p>Delicious Food Delivered to your Doorstep. Fast, Fresh and Tasty..!!</p>
+        <div class="footer-socials">
+          <a href="#"><img src="./assets/images/facebook.webp" alt="Facebook" width="35" height="35"></a>
+          <a href="#"><img src="./assets/images/Instagram.webp" alt="Instagram" width="35" height="35"></a>
+          <a href="#"><img src="./assets/images/twitter.jfif" alt="Twitter" width="35" height="35"></a>
+          <a href="#"><img src="./assets/images/youtube.webp" alt="Youtube" width="35" height="35"></a>
+        </div>
+      </section>
+      <hr>
+      <section>
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menus</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.htm">ContactUs</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+      </section>
+      <hr>
+      <section>
+        <h3>Coustomer Service</h3>
+        <ul>
+          <li>Track Orders</li>
+          <li>FAQs</li>
+          <li>Shipping Policy</li>
+          <li>Return Policy</li>
+          <li>Terms and Conditions</li>
+        </ul>
+      </section>
+      <hr />
+      <section id="contact">
+        <h3>Contact Us</h3>
+        <p>📞 +91 9898989494</p>
+        <p>✉ contact@bitebox.com</p>
+        <p>📍 1, 2nd floor Pune Maharashtra India.</p>
+      </section>
+      <hr>
+      <section>
+        <h3>Payment Method</h3>
+          <div class="payment-icons">
+          <img src="./assets/images/visa.svg" alt="Visa" width="60">
+          <img src="./assets/images/mastercard.svg" alt="MasterCard" width="60">
+          <img src="./assets/images/upi.jpg" alt="UPI" width="60">
+          <img src="./assets/images/paytm.png" alt="Paytm" width="60">
+        </div>
+      </section>
+      </div>
+      <hr>
+      <p>&copy; 2026 BiteBox. All Rights Reserved.</p>
+    </footer>
   </body>
 </html>
